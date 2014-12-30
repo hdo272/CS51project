@@ -1,0 +1,2 @@
+title: All the Single Characters: License Plate Localization and Character Segmentation for OCR
+seas-usernames: annielin, klim01, nhunguyen, hillaryjiado

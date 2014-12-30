@@ -1,0 +1,12 @@
+import cv2
+import numpy as np
+import math
+from scipy import ndimage
+from PIL import ImageFilter
+
+
+
+# import image and convert to grayscale
+img = cv2.imread('car5.jpg')
+
+sharpimg = img.filter(ImageFilter.SHARPEN)

@@ -1,0 +1,14 @@
+import cv2
+import numpy as np
+import math
+from scipy import ndimage
+
+# import image
+img = cv2.imread('output3.png')
+img2 = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
+w, h = img.shape[0], img.shape[1]
+
+for x in range(0, w):
+    for y in range(0, h):
+        curr_pixel = img2.item((x,y))
+        
